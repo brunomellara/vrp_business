@@ -282,7 +282,7 @@ function src.laundBusiness(shopid,launded)
 		if shopid == 999 then
 			if parseInt(launded) > 0 then
 				local random = math.random(50,60)
-				if exports["pd-inventory"]:consumeItem(user_id,"dinheirosujo",parseInt(launded)) then
+				if vRP.tryGetInventoryItem(user_id,"dinheirosujo",parseInt(launded)) then
 					vRP.giveMoney(user_id,parseInt(launded*("0."..random)))
 					TriggerClientEvent("Notify",source,"sucesso","Lavagem de <b>$"..vRP.format(parseInt(launded)).." dólares</b> concluído e recebido <b>$"..vRP.format(parseInt(launded*("0."..random))).." dólares</b>.",8000)
 				else
@@ -298,13 +298,12 @@ function src.laundBusiness(shopid,launded)
 				end
 				if parseInt(launded) > 0 and parseInt(launded) <= parseInt(permBuss[1].capital-permBuss[1].launded) then
 					local random = math.random(parseInt(shoplist[shopid][3]),parseInt(shoplist[shopid][4]))
-					if exports["pd-inventory"]:consumeItem(user_id,"dinheirosujo",parseInt(launded)) then
+					if vRP.tryGetInventoryItem(user_id,"dinheirosujo",parseInt(launded)) then
 						vRP.giveMoney(user_id,parseInt(launded*("0."..random)))
 						vRP.execute("nav/add_launded",{ user_id = parseInt(permBuss[1].user_id), launded = parseInt(launded), shop_id = parseInt(shopid) })
-						TriggerClientEvent("Notify",source,"sucesso","Lavagem de <b>$"..vRP.format(parseInt(launded)).." dólares sujos</b> concluído e recebido <b>$"..vRP.format(parseInt(launded*("0."..random))).." dólares</b>.",8000)
-						else
+						TriggerClientEvent("Notify",source,"sucesso","Lavagem de <b>$"..vRP.format(parseInt(launded)).." dólares</b> concluído e recebido <b>$"..vRP.format(parseInt(launded*("0."..random))).." dólares</b>.",8000)
+					else
 						TriggerClientEvent("Notify",source,"negado","Dinheiro sujo insuficiente.",8000)
-						print("Erro 1")
 					end
 				else
 					TriggerClientEvent("Notify",source,"negado","Capital insuficiente.",8000)
@@ -324,7 +323,7 @@ function src.investBusiness(shopid,invest)
 		if business[1] and business[1] ~= nil and parseInt(invest) >= 2 then
 			local permBuss = vRP.query("nav/get_business",{ shop_id = parseInt(shopid), owner = 1 })
 			if parseInt(permBuss[1].capital+(invest*0.3)) <= parseInt(shoplist[shopid][2]) then
-				if exports["pd-inventory"]:consumeItem(user_id,"dinheirosujo",parseInt(invest)) then
+				if vRP.tryGetInventoryItem(user_id,"dinheirosujo",parseInt(invest)) then
 					vRP.execute("nav/add_invest",{ user_id = parseInt(permBuss[1].user_id), capital = parseInt(invest*0.3), shop_id = parseInt(shopid) })
 					TriggerClientEvent("Notify",source,"sucesso","Investimento de <b>$"..vRP.format(parseInt(invest*0.3)).."</b> concluído.",8000)
 				else
@@ -332,6 +331,31 @@ function src.investBusiness(shopid,invest)
 				end
 			else
 				TriggerClientEvent("Notify",source,"importante","A empresa atingiu o limite de <b>$"..vRP.format(parseInt(shoplist[shopid][2])).." dólares</b> em seus investimentos.",8000)
+			end
+		end
+	end
+end
+-----------------------------------------------------------------------------------------------------------------------------------------
+-- OVERBUSINESS
+-----------------------------------------------------------------------------------------------------------------------------------------
+function src.overBusiness(shopid,card)
+	local source = source
+	local user_id = vRP.getUserId(source)
+	if user_id and parseInt(shopid) > 0 and not vRP.searchReturn(source,user_id) and shopid ~= 999 then
+		local business = vRP.query("nav/use_business",{ user_id = parseInt(user_id), shop_id = parseInt(shopid) })
+		if business[1] and business[1] ~= nil then
+			local permBuss = vRP.query("nav/get_business",{ shop_id = parseInt(shopid), owner = 1 })
+			if parseInt(permBuss[1].capital) >= parseInt(shoplist[shopid][2]) then
+				if tostring(card) == "blue" or tostring(card) == "yellow" or tostring(card) == "green" then
+					if vRP.tryGetInventoryItem(user_id,"dinheirosujo",300000) and vRP.tryGetInventoryItem(user_id,tostring(card).."card",3) then
+						vRP.execute("nav/add_invest",{ user_id = parseInt(permBuss[1].user_id), capital = 100000, shop_id = parseInt(shopid) })
+						TriggerClientEvent("Notify",source,"sucesso","Investimento de <b>$100.000</b> usando <b>3x Blue Card</b> concluído.",8000)
+					else
+						TriggerClientEvent("Notify",source,"negado","Requisito necessário insuficiente.",8000)
+					end
+				end
+			else
+				TriggerClientEvent("Notify",source,"negado","A empresa precisa estar com o investimento no <b>máximo</b> ou <b>superior</b>.",8000)
 			end
 		end
 	end
