@@ -116,126 +116,126 @@ local shoplist = { -- price,max,minium,start,maxium,name,socios
 	[84] = { 2000000,1500000,80,90,"Posto de Gasolina",2 },
 	[85] = { 2000000,1500000,80,90,"Posto de Gasolina",2 },
 	[86] = { 5000000,3000000,80,90,"Bar",3 },
-	[87] = { 5000000,3000000,97,99,"Vanilla",9},
+	[87] = { 5000000,3000000,97,99,"Vanilla",10 },
 	[88] = { 5000000,3000000,80,90,"Bar",3 },
 	[89] = { 5000000,3000000,80,90,"Bar",3 },
 	[90] = { 5000000,3000000,80,90,"Bar",3 },
 	[91] = { 1000000,750000,80,90,"Loja de Armamentos",2 },
 	[92] = { 1000000,750000,80,90,"Loja de Armamentos",2 },
 	[93] = { 1000000,750000,80,90,"Loja de Armamentos",2 },
-	[94] = {350000,100000,80,90,"Camelô",2 },
- [95] = {350000,100000,80,90,"Camelô",2 },
- [96] = {350000,100000,80,90,"Camelô",2 },
- [97] = {350000,100000,80,90,"Camelô",2 },
- [98] = {350000,100000,80,90,"Camelô",2 },
- [99] = {350000,100000,80,90,"Camelô",2 },
- [100] = {350000,100000,80,90,"Camelô",2 },
- [101] = {350000,100000,80,90,"Camelô",2 },
- [102] = {350000,100000,80,90,"Camelô",2 },
- [103] = {350000,100000,80,90,"Camelô",2 },
- [104] = {350000,100000,80,90,"Camelô",2 },
- [105] = {350000,100000,80,90,"Camelô",2 },
- [106] = {350000,100000,80,90,"Camelô",2 },
- [107] = {350000,100000,80,90,"Camelô",2 },
- [108] = {350000,100000,80,90,"Camelô",2 },
- [109] = {350000,100000,80,90,"Camelô",2 },
- [110] = {350000,100000,80,90,"Camelô",2 },
- [111] = {350000,100000,80,90,"Camelô",2 },
- [112] = {350000,100000,80,90,"Camelô",2 },
- [113] = {350000,100000,80,90,"Camelô",2 },
- [114] = {350000,100000,80,90,"Camelô",2 },
- [115] = {350000,100000,80,90,"Camelô",2 },
- [116] = {350000,100000,80,90,"Camelô",2 },
- [117] = {350000,100000,80,90,"Camelô",2 },
- [118] = {350000,100000,80,90,"Camelô",2 },
- [119] = {350000,100000,80,90,"Camelô",2 },
- [120] = {350000,100000,80,90,"Camelô",2 },
- [121] = {350000,100000,80,90,"Camelô",2 },
- [122] = {350000,100000,80,90,"Camelô",2 },
- [123] = {350000,100000,80,90,"Camelô",2 },
- [124] = {350000,100000,80,90,"Camelô",2 },
- [125] = {350000,100000,80,90,"Camelô",2 },
- [126] = {350000,100000,80,90,"Camelô",2 },
- [127] = { 300000,150000,80,90,"Cannabis Store",2 },
- [128] = { 1700000,1250000,80,90,"Pescado Rojo",2 },
- [129] = { 1700000,1250000,80,90,"Pipeline INN",2 },
- [130] = { 1700000,1250000,80,90,"Spitroasters Meathouse",2 },
- [131] = { 1700000,1250000,80,90,"Clappers",2 },
- [132] = { 1700000,1250000,80,90,"Casey's Dinner",2 },
- [133] = { 1700000,1250000,80,90,"Taco Bomb",2 },
- [134] = { 1700000,1250000,80,90,"Hookies",2 },
- [135] = { 1700000,1250000,80,90,"Bayview Lodge",2 },
- [136] = { 1700000,1250000,80,90,"Pearl's Seafood",2 },
- [137] = { 1700000,1250000,80,90,"Lumac Restaurant",2 },
- [138] = { 1700000,1250000,80,90,"La Spada",2 },
- [139] = { 1800000,1300000,80,90,"Oficina",2 },
- [140] = { 1800000,1300000,80,90,"Oficina",2 },
- [141] = { 1800000,1300000,80,90,"Oficina",2 },
- [142] = { 1800000,1300000,80,90,"Oficina",2 },
- [143] = { 1800000,1300000,80,90,"Oficina",2 },
- [144] = { 1800000,1300000,80,90,"Oficina",2 },
- [145] = { 1800000,1300000,80,90,"Oficina",2 },
- [146] = { 1800000,1300000,80,90,"Oficina",2 },
- [147] = { 5000000,3000000,80,90,"Koi Spa",2 },
- [148] = { 300000,150000,80,90,"Lavanderia",2 },
- [149] = { 300000,150000,80,90,"Porncrackers",2 },
- [150] = { 300000,150000,80,90,"Loja de Penhores",2 },
- [151] = { 300000,150000,80,90,"Save-a-Cent",2 },
- [152] = { 300000,150000,80,90,"Save-a-Cent",2 },
- [153] = { 300000,150000,80,90,"Save-a-Cent",2 },
- [154] = { 300000,150000,80,90,"Save-a-Cent",2 },
- [155] = { 300000,150000,80,90,"Vinewood Pawn",2 },
- [156] = { 5000000,3000000,80,90,"You Tool",2 },
- [157] = { 5000000,3000000,80,90,"MEGA MALL",2 },
- [158] = { 1800000,1300000,80,90,"Farmacia",2 },
- [159] = { 1800000,1300000,80,90,"Farmacia",2 },
- [160] = { 1800000,1300000,80,90,"Farmacia",2 },
- [161] = { 800000,550000,80,90,"Lanchonete",2 },
- [162] = { 800000,550000,80,90,"Lanchonete",2 },
- [163] = { 800000,550000,80,90,"Lanchonete",2 },
- [164] = { 800000,550000,80,90,"Park Jung",2 },
- [165] = { 800000,550000,80,90,"Taco Farmer",2 },
- [166] = { 800000,550000,80,90,"Taco Farmer",2 },
- [167] = { 800000,550000,80,90,"Long Pig",2 },
- [168] = { 800000,550000,80,90,"Hearty Taco",2 },
- [169] = { 800000,550000,80,90,"Bishop's Chicken",2 },
- [170] = { 800000,550000,80,90,"Bishop's Chicken",2 },
- [171] = { 800000,550000,80,90,"Muscle Peach",2 },
- [172] = { 800000,550000,80,90,"La Vaca Loca",2 },
- [173] = { 1700000,1250000,80,90,"Lucky Plucker",2 },
- [174] = { 1700000,1250000,80,90,"Chilli House",2 },
- [175] = { 800000,550000,80,90,"Aguilla Burrito",2 },
- [176] = { 800000,550000,80,90,"China Buffet",2 },
- [177] = { 800000,550000,80,90,"Cluckin'Bell",2 },
- [178] = { 800000,550000,80,90,"Chihuahua HotDogs",2 },
- [179] = { 1700000,1250000,80,90,"Wraps Fresh",2 },
- [180] = { 800000,550000,80,90,"Chido Taqueria",2 },
- [181] = { 1700000,1250000,80,90,"Burguer shot",2 },
- [182] = { 800000,550000,80,90,"Liberty Style Pizza",2 },
- [183] = { 800000,550000,80,90,"Pizza This",2 },
- [184] = { 1700000,1250000,80,90,"Lucky Plucker",2 },
- [185] = { 3000000,2000000,80,90,"SHO Noodle",2 },
- [186] = { 1700000,1250000,80,90,"Mom's Pie",2 },
- [187] = { 1700000,1250000,80,90,"Hang Ten",2 },
- [188] = { 3000000,2000000,80,90,"Snr.Burns",2 },
- [189] = { 10000000,6000000,80,90,"M&M Seguros",2 },
- [190] = { 10000000,6000000,80,90,"Pacific Bluffs",2 },
- [191] = { 10000000,6000000,80,90,"Clube de Tenis",2 },
- [192] = { 10000000,6000000,80,90,"Soyle Tecidos",2 },
- [193] = { 10000000,6000000,80,90,"Korean Plaza",2 },
- [194] = { 5000000,3000000,80,90,"Bean Machine Cafe",2 },
- [195] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [196] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [197] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [198] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [199] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [200] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [201] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [202] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [203] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [204] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
- [205] = { 850000,600000,80,90,"Little Teapot",2 },
- [206] = { 850000,600000,80,90,"Jamaican Roast",2 }
+	 [94] = {350000,100000,80,90,"Camelô",2 },
+	 [95] = {350000,100000,80,90,"Camelô",2 },
+	 [96] = {350000,100000,80,90,"Camelô",2 },
+	 [97] = {350000,100000,80,90,"Camelô",2 },
+	 [98] = {350000,100000,80,90,"Camelô",2 },
+	 [99] = {350000,100000,80,90,"Camelô",2 },
+	 [100] = {350000,100000,80,90,"Camelô",2 },
+	 [101] = {350000,100000,80,90,"Camelô",2 },
+	 [102] = {350000,100000,80,90,"Camelô",2 },
+	 [103] = {350000,100000,80,90,"Camelô",2 },
+	 [104] = {350000,100000,80,90,"Camelô",2 },
+	 [105] = {350000,100000,80,90,"Camelô",2 },
+	 [106] = {350000,100000,80,90,"Camelô",2 },
+	 [107] = {350000,100000,80,90,"Camelô",2 },
+	 [108] = {350000,100000,80,90,"Camelô",2 },
+	 [109] = {350000,100000,80,90,"Camelô",2 },
+	 [110] = {350000,100000,80,90,"Camelô",2 },
+	 [111] = {350000,100000,80,90,"Camelô",2 },
+	 [112] = {350000,100000,80,90,"Camelô",2 },
+	 [113] = {350000,100000,80,90,"Camelô",2 },
+	 [114] = {350000,100000,80,90,"Camelô",2 },
+	 [115] = {350000,100000,80,90,"Camelô",2 },
+	 [116] = {350000,100000,80,90,"Camelô",2 },
+	 [117] = {350000,100000,80,90,"Camelô",2 },
+	 [118] = {350000,100000,80,90,"Camelô",2 },
+	 [119] = {350000,100000,80,90,"Camelô",2 },
+	 [120] = {350000,100000,80,90,"Camelô",2 },
+	 [121] = {350000,100000,80,90,"Camelô",2 },
+	 [122] = {350000,100000,80,90,"Camelô",2 },
+	 [123] = {350000,100000,80,90,"Camelô",2 },
+	 [124] = {350000,100000,80,90,"Camelô",2 },
+	 [125] = {350000,100000,80,90,"Camelô",2 },
+	 [126] = {350000,100000,80,90,"Camelô",2 },
+	 [127] = { 300000,150000,80,90,"Cannabis Store",2 },
+	 [128] = { 1700000,1250000,80,90,"Pescado Rojo",2 },
+	 [129] = { 1700000,1250000,80,90,"Pipeline INN",2 },
+	 [130] = { 1700000,1250000,80,90,"Spitroasters Meathouse",2 },
+	 [131] = { 1700000,1250000,80,90,"Clappers",2 },
+	 [132] = { 1700000,1250000,80,90,"Casey's Dinner",2 },
+	 [133] = { 1700000,1250000,80,90,"Taco Bomb",2 },
+	 [134] = { 1700000,1250000,80,90,"Hookies",2 },
+	 [135] = { 1700000,1250000,80,90,"Bayview Lodge",2 },
+	 [136] = { 1700000,1250000,80,90,"Pearl's Seafood",2 },
+	 [137] = { 1700000,1250000,80,90,"Lumac Restaurant",2 },
+	 [138] = { 1700000,1250000,80,90,"La Spada",2 },
+	 [139] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [140] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [141] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [142] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [143] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [144] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [145] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [146] = { 1800000,1300000,80,90,"Oficina",2 },
+	 [147] = { 5000000,3000000,80,90,"Koi Spa",2 },
+	 [148] = { 300000,150000,80,90,"Lavanderia",2 },
+	 [149] = { 300000,150000,80,90,"Porncrackers",2 },
+	 [150] = { 300000,150000,80,90,"Loja de Penhores",2 },
+	 [151] = { 300000,150000,80,90,"Save-a-Cent",2 },
+	 [152] = { 300000,150000,80,90,"Save-a-Cent",2 },
+	 [153] = { 300000,150000,80,90,"Save-a-Cent",2 },
+	 [154] = { 300000,150000,80,90,"Save-a-Cent",2 },
+	 [155] = { 300000,150000,80,90,"Vinewood Pawn",2 },
+	 [156] = { 5000000,3000000,80,90,"You Tool",2 },
+	 [157] = { 5000000,3000000,80,90,"MEGA MALL",2 },
+	 [158] = { 1800000,1300000,80,90,"Farmacia",2 },
+	 [159] = { 1800000,1300000,80,90,"Farmacia",2 },
+	 [160] = { 1800000,1300000,80,90,"Farmacia",2 },
+	 [161] = { 800000,550000,80,90,"Lanchonete",2 },
+	 [162] = { 800000,550000,80,90,"Lanchonete",2 },
+	 [163] = { 800000,550000,80,90,"Lanchonete",2 },
+	 [164] = { 800000,550000,80,90,"Park Jung",2 },
+	 [165] = { 800000,550000,80,90,"Taco Farmer",2 },
+	 [166] = { 800000,550000,80,90,"Taco Farmer",2 },
+	 [167] = { 800000,550000,80,90,"Long Pig",2 },
+	 [168] = { 800000,550000,80,90,"Hearty Taco",2 },
+	 [169] = { 800000,550000,80,90,"Bishop's Chicken",2 },
+	 [170] = { 800000,550000,80,90,"Bishop's Chicken",2 },
+	 [171] = { 800000,550000,80,90,"Muscle Peach",2 },
+	 [172] = { 800000,550000,80,90,"La Vaca Loca",2 },
+	 [173] = { 1700000,1250000,80,90,"Lucky Plucker",2 },
+	 [174] = { 1700000,1250000,80,90,"Chilli House",2 },
+	 [175] = { 800000,550000,80,90,"Aguilla Burrito",2 },
+	 [176] = { 800000,550000,80,90,"China Buffet",2 },
+	 [177] = { 800000,550000,80,90,"Cluckin'Bell",2 },
+	 [178] = { 800000,550000,80,90,"Chihuahua HotDogs",2 },
+	 [179] = { 1700000,1250000,80,90,"Wraps Fresh",2 },
+	 [180] = { 800000,550000,80,90,"Chido Taqueria",2 },
+	 [181] = { 1700000,1250000,80,90,"Burguer shot",2 },
+	 [182] = { 800000,550000,80,90,"Liberty Style Pizza",2 },
+	 [183] = { 800000,550000,80,90,"Pizza This",2 },
+	 [184] = { 1700000,1250000,80,90,"Lucky Plucker",2 },
+	 [185] = { 3000000,2000000,80,90,"SHO Noodle",2 },
+	 [186] = { 1700000,1250000,80,90,"Mom's Pie",2 },
+	 [187] = { 1700000,1250000,80,90,"Hang Ten",2 },
+	 [188] = { 3000000,2000000,80,90,"Snr.Burns",2 },
+	 [189] = { 10000000,6000000,80,90,"M&M Seguros",2 },
+	 [190] = { 10000000,6000000,80,90,"Pacific Bluffs",2 },
+	 [191] = { 10000000,6000000,80,90,"Clube de Tenis",2 },
+	 [192] = { 10000000,6000000,80,90,"Soyle Tecidos",2 },
+	 [193] = { 10000000,6000000,80,90,"Korean Plaza",2 },
+	 [194] = { 5000000,3000000,80,90,"Bean Machine Cafe",2 },
+	 [195] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [196] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [197] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [198] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [199] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [200] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [201] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [202] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [203] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [204] = { 850000,600000,80,90,"Bean Machine Cafe",2 },
+	 [205] = { 850000,600000,80,90,"Little Teapot",2 },
+	 [206] = { 850000,600000,80,90,"Jamaican Roast",2 }
 }
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- BUYBUSINESS
@@ -298,7 +298,7 @@ function src.laundBusiness(shopid,launded)
 				end
 				if parseInt(launded) > 0 and parseInt(launded) <= parseInt(permBuss[1].capital-permBuss[1].launded) then
 					local random = math.random(parseInt(shoplist[shopid][3]),parseInt(shoplist[shopid][4]))
-					if vRP.tryGetInventoryItem(user_id,"dinheirosujo",parseInt(launded)) then
+					if vRP.tryGetInventoryItem(user_id,"dinheiro-sujo",parseInt(launded)) then
 						vRP.giveMoney(user_id,parseInt(launded*("0."..random)))
 						vRP.execute("nav/add_launded",{ user_id = parseInt(permBuss[1].user_id), launded = parseInt(launded), shop_id = parseInt(shopid) })
 						TriggerClientEvent("Notify",source,"sucesso","Lavagem de <b>$"..vRP.format(parseInt(launded)).." dólares</b> concluído e recebido <b>$"..vRP.format(parseInt(launded*("0."..random))).." dólares</b>.",8000)
@@ -323,7 +323,7 @@ function src.investBusiness(shopid,invest)
 		if business[1] and business[1] ~= nil and parseInt(invest) >= 2 then
 			local permBuss = vRP.query("nav/get_business",{ shop_id = parseInt(shopid), owner = 1 })
 			if parseInt(permBuss[1].capital+(invest*0.3)) <= parseInt(shoplist[shopid][2]) then
-				if vRP.tryGetInventoryItem(user_id,"dinheirosujo",parseInt(invest)) then
+				if vRP.tryGetInventoryItem(user_id,"dinheiro-sujo",parseInt(invest)) then
 					vRP.execute("nav/add_invest",{ user_id = parseInt(permBuss[1].user_id), capital = parseInt(invest*0.3), shop_id = parseInt(shopid) })
 					TriggerClientEvent("Notify",source,"sucesso","Investimento de <b>$"..vRP.format(parseInt(invest*0.3)).."</b> concluído.",8000)
 				else
@@ -336,7 +336,7 @@ function src.investBusiness(shopid,invest)
 	end
 end
 -----------------------------------------------------------------------------------------------------------------------------------------
--- OVERBUSINESS
+-- OVERBUSINESS  ( Aumentar o limite )
 -----------------------------------------------------------------------------------------------------------------------------------------
 function src.overBusiness(shopid,card)
 	local source = source
@@ -346,12 +346,12 @@ function src.overBusiness(shopid,card)
 		if business[1] and business[1] ~= nil then
 			local permBuss = vRP.query("nav/get_business",{ shop_id = parseInt(shopid), owner = 1 })
 			if parseInt(permBuss[1].capital) >= parseInt(shoplist[shopid][2]) then
-				if tostring(card) == "blue" or tostring(card) == "yellow" or tostring(card) == "green" then
-					if vRP.tryGetInventoryItem(user_id,"dinheirosujo",300000) and vRP.tryGetInventoryItem(user_id,tostring(card).."card",3) then
+				if tostring(card) == "cardblue" or tostring(card) == "cardyellow" or tostring(card) == "cardgreen" then
+					if vRP.tryGetInventoryItem(user_id,"dinheiro-sujo",100000) and vRP.tryGetInventoryItem(user_id,tostring(card).."card",3) then
 						vRP.execute("nav/add_invest",{ user_id = parseInt(permBuss[1].user_id), capital = 100000, shop_id = parseInt(shopid) })
-						TriggerClientEvent("Notify",source,"sucesso","Investimento de <b>$100.000</b> usando <b>3x Blue Card</b> concluído.",8000)
+						TriggerClientEvent("Notify",source,"sucesso","Investimento de <b>$100.000</b> usando <b>3x Card</b> concluído.",8000)
 					else
-						TriggerClientEvent("Notify",source,"negado","Requisito necessário insuficiente.",8000)
+						TriggerClientEvent("Notify",source,"negado","Requisitos necessários insuficientes.",8000)
 					end
 				end
 			else
@@ -374,7 +374,7 @@ function src.checkBusiness(shopid)
 			for k,v in pairs(allPerms) do
 				local identity = vRP.getUserIdentity(v.user_id)
 				if identity then
-					permissoes = permissoes.."<b>Nome:</b> "..identity.name.." "..identity.firstname.."   -   <b>Passaporte:</b> "..v.user_id
+					permissoes = permissoes.."<b>Nome:</b> "..identity.name.." "..identity.firstname.."   |   <b>CPF:</b> "..v.user_id
 					if k ~= #allPerms then
 						permissoes = permissoes.."<br>"
 					end
@@ -405,7 +405,7 @@ function src.infoBusiness(shopid)
 				TriggerClientEvent("Notify",source,"importante","<b>Proprietário:</b> "..identity.name.." "..identity.firstname,8000)
 			end
 		else
-			TriggerClientEvent("Notify",source,"aviso","<b>Valor:</b> $"..vRP.format(parseInt(shoplist[shopid][1])),8000)
+			TriggerClientEvent("Notify",source,"aviso","<b>Preço:</b> $"..vRP.format(parseInt(shoplist[shopid][1])),8000)
 		end
 	end
 end
@@ -426,7 +426,7 @@ function src.addBusiness(shopid,nuserid)
 				vRP.execute("nav/put_business",{ user_id = parseInt(nuserid), shop_id = parseInt(shopid), capital = 0, launded = 0, timelap = 0, owner = 0 })
 				local identity = vRP.getUserIdentity(parseInt(nuserid))
 				if identity then
-					TriggerClientEvent("Notify",source,"sucesso","Sociedade adicionada para <b>"..identity.name.." "..identity.firstname.."</b>.",10000)
+					TriggerClientEvent("Notify",source,"sucesso","Sociedade de <b>"..identity.name.." "..identity.firstname.."</b> adicionada.",10000)
 				end
 			end
 		end
@@ -446,7 +446,7 @@ function src.remBusiness(shopid,nuserid)
 				vRP.execute("nav/rem_permission",{ shop_id = parseInt(shopid), user_id = parseInt(nuserid) })
 				local identity = vRP.getUserIdentity(parseInt(nuserid))
 				if identity then
-					TriggerClientEvent("Notify",source,"sucesso","Sociedade removida de <b>"..identity.name.." "..identity.firstname.."</b>.",10000)
+					TriggerClientEvent("Notify",source,"sucesso","Sociedade de <b>"..identity.name.." "..identity.firstname.."</b> removida.",10000)
 				end
 			end
 		end
@@ -463,11 +463,11 @@ function src.transBusiness(shopid,nuserid)
 		if business[1] and business[1] ~= nil then
 			local identity = vRP.getUserIdentity(parseInt(nuserid))
 			if identity then
-				local ok = vRP.request(source,"Transferir a <b>"..tostring(shoplist[shopid][5]).."</b> para <b>"..identity.name.." "..identity.firstname.."</b>?",30)
+				local ok = vRP.request(source,"Deseja transferir a <b>"..tostring(shoplist[shopid][5]).."</b> para <b>"..identity.name.." "..identity.firstname.."</b>?",30)
 				if ok then
 					vRP.execute("nav/del_business",{ shop_id = parseInt(shopid) })
 					vRP.execute("nav/put_business",{ user_id = parseInt(nuserid), shop_id = parseInt(shopid), capital = parseInt(business[1].capital), launded = parseInt(business[1].launded), timelap = parseInt(business[1].timelap), owner = 1 })
-					TriggerClientEvent("Notify",source,"importante","Transferiu a <b>"..tostring(shoplist[shopid][5]).."</b> para <b>"..identity.name.." "..identity.firstname.."</b>.",10000)
+					TriggerClientEvent("Notify",source,"importante","<b>"..tostring(shoplist[shopid][5]).."</b> tranferida para <b>"..identity.name.." "..identity.firstname.."</b> com sucesso.",10000)
 				end
 			end
 		end
