@@ -29,7 +29,7 @@ vRP._prepare("nav/check_business2","SELECT * FROM nav_business WHERE owner = 1")
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- SHOPLIST
 -----------------------------------------------------------------------------------------------------------------------------------------
-local shoplist = { -- price,max,minium,start,maxium,name,socios
+local shoplist = { -- preço,maximo,minimo,%.min,%.max,nome,socios
 	[1] = { 750000,500000,80,90,"Loja de Departamento",2 },
 	[2] = { 750000,500000,80,90,"Loja de Departamento",2 },
 	[3] = { 750000,500000,80,90,"Loja de Departamento",2 },
